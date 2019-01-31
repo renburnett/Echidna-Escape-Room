@@ -7,13 +7,10 @@ namespace EchidnaEscape_01
     {
         static void Main(string[] args)
         {
-            // Instantiate game 
             Game game = new Game();
-
             string input = "intro";
-            // while game not over, play on, playa
-            while (game.gameState == GameState.PlayOn &&
-                    input != "quit")
+
+            while (game.gameState == GameState.PlayOn && input != "quit")
             {
                 game.player.NumberOfMovesTaken++;
                 // Parse goes here and loop through returns here each time
