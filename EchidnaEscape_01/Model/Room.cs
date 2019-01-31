@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ReferenceGame
+namespace EchidnaEscape_01
 {
     public class Room
     {

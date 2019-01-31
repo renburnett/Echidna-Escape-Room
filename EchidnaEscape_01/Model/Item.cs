@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ReferenceGame
+namespace EchidnaEscape_01
 {
     public class Item
     {

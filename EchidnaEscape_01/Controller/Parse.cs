@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace ReferenceGame
+namespace EchidnaEscape_01
 {
     public class Parse
     {
@@ -14,7 +14,7 @@ namespace ReferenceGame
         public string[] commands;
         public string InputVerb;
         public string InputNoun;
-        public string helpMessage = "Try different actions with the items in the room. For example: EXAMINE BUTTON. Type INTRO to see the opening screen text.";
+        public string helpMessage = "Try different actions with the items in the room. Examples: EXAMINE {ITEM}, or USE {ITEM}. Type INTRO to see the opening screen text.";
 
         // If user enters nothing (which is the default too), intro view is shown.
         //      Otherwise, convert user's input to lowercase, and split at space into an array of strings

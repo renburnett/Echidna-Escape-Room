@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ReferenceGame
+namespace EchidnaEscape_01
 {
     public class Scenes
     {
