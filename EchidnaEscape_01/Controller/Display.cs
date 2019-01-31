@@ -5,20 +5,14 @@ namespace EchidnaEscape_01
 {
 	public class Display
 	{
-
-		//TODO: LastShow does NOTHING
-		public string LastShow = " ";
-
 		private void WriteLine(string text)
 		{
 			Console.WriteLine(text);
-			LastShow = text;
 		}
 
 		private void Write(string text)
 		{
 			Console.Write(text);
-			LastShow = text;
 		}
 
 		// Is this just for showing the room name? If so, let's delete it
