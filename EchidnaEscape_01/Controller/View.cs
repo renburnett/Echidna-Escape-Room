@@ -7,7 +7,7 @@ using System.Text;
 using System.Drawing;
 using Console = Colorful.Console;
 
-namespace ReferenceGame
+namespace EchidnaEscape_01
 {
 	// TODO: Remove this ViewType enum
 	public enum ViewType
